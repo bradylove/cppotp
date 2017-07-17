@@ -29,6 +29,5 @@ endif()
 add_subdirectory(${CMAKE_BINARY_DIR}/googletest-src
                  ${CMAKE_BINARY_DIR}/googletest-build)
 
-add_subdirectory(lib)
-add_subdirectory(test)
+add_subdirectory(src)
 add_subdirectory(third_party)

@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "lib/otp.h"
+#include "otp.h"
 
 TEST(OTPTest, OTP) {
   otp::token t = otp::token("nftvbnyzojhhrgzt7lb3bo77mzbfp3r3");

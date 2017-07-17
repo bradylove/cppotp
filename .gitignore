@@ -39,3 +39,4 @@ CMakeFiles/
 *-src/
 cmake_install.cmake
 **/Makefile
+**/CTestTestfile.cmake

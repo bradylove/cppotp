@@ -1,14 +1,16 @@
 #include <string>
+#include <vector>
 
-namespace otp {
-  class token {
+namespace OTP {
+  class Token {
     public:
-      token();
-      token(std::string);
+      Token();
+      Token(std::string);
 
-      std::string at(int);
+      std::string at(int64_t);
+      std::string to_string();
 
     private:
-      std::string myToken;
+      std::vector<uint8_t> secret;
   };
 }
